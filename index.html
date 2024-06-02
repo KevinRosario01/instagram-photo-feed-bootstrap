@@ -6,10 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram Feed with Bootstrap</title>
-    <!-- Bootstrap Styling link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Fontawesome link (For the icons) -->
     <script src="https://kit.fontawesome.com/072e5df971.js" crossorigin="anonymous"></script>
 </head>
 
@@ -22,7 +20,6 @@
             color: blue;
         }
     </style>
-    <!-- Navbar -->
     <nav class="navbar navbar-light bg-light py-3">
         <div class="container-fluid">
             <div class="d-flex w-100 justify-content-between">
@@ -31,7 +28,6 @@
                     <h5 class="d-inline-block fs-5">Instagram</h5>
                 </div>
                 <div class="d-flex align-right justify-content-end">
-                    <!-- Button trigger modal -->
                     <button type="button" class="btn btn-success me-2" data-bs-toggle="modal"
                         data-bs-target="#exampleModal">
                         Create a new post
@@ -55,8 +51,6 @@
             </div>
         </div>
     </nav>
-
-    <!-- Modal Body -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -84,8 +78,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Toggle Grid -->
     <div class="container-fluid p-2">
         <ul class="nav nav-pill justify-content-center" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
@@ -99,7 +91,6 @@
             </li>
         </ul>
         <div class="tab-content" id="myTabContent">
-            <!-- 3 photos per row grid -->
             <div class="tab-pane fade show active overflow-hidden" id="home" role="tabpanel" aria-labelledby="home-tab">
                 <div class="row">
                     <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb" class="img-fluid w-100" alt=""></div>
@@ -117,7 +108,6 @@
                     <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://epostalnews.com/wallpaper/wallpaper/20220827/diverse-college-students-smiling-together-during-class-australian-preview.webp" class="img-fluid w-100" alt=""></div>
                 </div>
             </div>
-            <!-- 1 photo per row grid -->
             <div class="tab-pane fade overflow-hidden" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                 <div class="row my-4">
                     <div class="col-6 mx-auto border rounded p-0">
